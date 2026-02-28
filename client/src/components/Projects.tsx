@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import fiteatsImage from "@/assets/fiteats.png";
 import transithubImage from "@/assets/transithub.png";
 import khetSeGharTakImage from "@/assets/khet-se-ghar-tak.png";
+import optimalwayImage from "@/assets/optimalway.png";
 import examprepImage from "@/assets/examprep.png";
 
 interface Project {
@@ -46,6 +47,7 @@ const projects: Project[] = [
     technologies: ["React", "JavaScript", "Algorithm Visualization"],
     live: "https://optimal-way.vercel.app/",
     category: "AI/ML",
+    image: optimalwayImage,
   },
   {
     title: "Khet-Se-Ghar-Tak",
