@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { Button } from "./ui/button";
 import { Download, Mail } from "lucide-react";
-import profileImage from "@/assets/profile.jpg";
+import profileImage from "@/assets/edited-photo.png";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
